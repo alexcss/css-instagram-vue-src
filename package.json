@@ -1,0 +1,25 @@
+{
+   "name": "css-instagram-vue",
+   "version": "1.0.0",
+   "main": "index.js",
+   "author": "AlexCSS",
+   "license": "MIT",
+   "scripts": {
+      "dev": "webpack --mode development",
+      "build": "webpack --mode production",
+      "watch": "webpack --mode development --watch",
+      "start": "webpack serve --mode development"
+   },
+   "dependencies": {
+      "webpack": "5.x",
+      "webpack-cli": "4.x"
+   },
+   "devDependencies": {
+      "clean-webpack-plugin": "^4.0.0",
+      "css-loader": "^6",
+      "html-webpack-plugin": "5.x",
+      "mini-css-extract-plugin": "^2.5.3",
+      "style-loader": "^3",
+      "webpack-dev-server": "^4"
+   }
+}
